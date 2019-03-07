@@ -1,0 +1,43 @@
+{
+  "name": "creative-portfolio",
+  "version": "1.0.0",
+  "description": "Blog designed to showcase my current interests and artworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "start": "node ./server/index.js",
+    "build": "webpack -d --watch",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisvensand/Creative-Portfolio.git"
+  },
+  "author": "Chris Vensand",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chrisvensand/Creative-Portfolio/issues"
+  },
+  "homepage": "https://github.com/chrisvensand/Creative-Portfolio#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
